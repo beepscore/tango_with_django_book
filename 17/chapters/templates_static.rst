@@ -23,7 +23,7 @@ To tell your Django project where the templates will be housed, open your projec
 .. code-block:: python
 	
 	
-	TEMPLATE_DIRS = ['<workspace>/tango_with_django_project/']
+	TEMPLATE_DIRS = ['<workspace>/tango_with_django_project/templates']
 
 Note that you are *required to use absolute paths* to locate the ``templates`` directory. If you are part of a team or working on different computers, this may become a problem in the future. You'll have different usernames, meaning different paths to your ``<workspace>`` directory. The *hard-coded* path you entered above would not be the same on different computers. Of course, you could add in the template directory for each different setup, but that would be a pretty nasty way to tackle the problem. So, what can we do?
 
